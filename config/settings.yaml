@@ -1,0 +1,13 @@
+data_mode: raw             # "raw" = your real CSV files, "synthetic" = fake demo data
+
+paths:
+  tariff: data/processed/tariff_increases.csv
+  cpi: data/processed/cpi_annual.csv
+
+base_financial_year: 2008  # FY2008/09 is the first year in the comparison
+last_financial_year: 2025  # FY2025/26. CPI for 2026 is not complete until early 2027
+
+# Eskom's financial year runs April to March, CPI is reported per calendar year.
+# fy_start_year: FY2008/09 is compared with CPI for 2008
+# fy_end_year:   FY2008/09 is compared with CPI for 2009
+cpi_alignment: fy_start_year

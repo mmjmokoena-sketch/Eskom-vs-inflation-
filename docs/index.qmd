@@ -1,0 +1,51 @@
+---
+title: "Eskom tariff increases versus inflation"
+---
+
+Annual Eskom tariff increases compared with consumer price inflation. This is a small
+practice project; see the repository for the data sources and code.
+
+```{python}
+#| include: false
+from pathlib import Path
+import pandas as pd
+import plotly.graph_objects as go
+
+tables = Path("..") / "outputs" / "tables"
+table = pd.read_csv(tables / "comparison.csv")
+summary = pd.read_csv(tables / "summary.csv").iloc[0]
+```
+
+```{python}
+#| echo: false
+from IPython.display import Markdown
+Markdown(
+    f"Over **{int(summary['years'])} years**, the tariff rose by "
+    f"**{summary['tariff_total_growth_pct']:,.0f}%** (about "
+    f"{summary['tariff_cagr_pct']:.1f}% a year) while CPI rose by "
+    f"**{summary['cpi_total_growth_pct']:,.0f}%** (about "
+    f"{summary['cpi_cagr_pct']:.1f}% a year). The tariff increase was above inflation in "
+    f"{int(summary['years_tariff_above_cpi'])} of {int(summary['years'])} years."
+)
+```
+
+```{python}
+#| echo: false
+fig = go.Figure()
+fig.add_bar(x=table["fy_label"], y=table["increase_pct"], name="Eskom tariff increase")
+fig.add_bar(x=table["fy_label"], y=table["cpi_avg_pct"], name="CPI inflation")
+fig.update_layout(barmode="group", title="Annual increases (%)", yaxis_title="% per year")
+fig
+```
+
+```{python}
+#| echo: false
+fig = go.Figure()
+fig.add_scatter(x=table["fy_label"], y=table["tariff_index"], name="Eskom tariff")
+fig.add_scatter(x=table["fy_label"], y=table["cpi_index"], name="CPI")
+fig.update_layout(title="Cumulative increase (100 = start of period)", yaxis_title="Index")
+fig
+```
+
+*Scenario note: tariffs are Eskom's approved annual increases; CPI is the annual average.
+Sources and verification status are listed in data/raw/SOURCES.md.*

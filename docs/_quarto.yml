@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Eskom tariffs versus inflation"
+
+format:
+  html:
+    theme: cosmo
+    toc: false
