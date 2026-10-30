@@ -1,21 +1,20 @@
 year,cpi_avg_pct,source,verified,note
-2007,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2008,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2009,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2010,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2011,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2012,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2013,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2014,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2015,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2016,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2017,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2018,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2019,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2020,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2021,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2022,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2023,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2024,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2025,,,false,FILL IN annual average headline CPI inflation from Stats SA
-2026,,,false,FILL IN annual average headline CPI inflation from Stats SA
+2008,11.5,"Stats SA P0141 CPI history, Table B2 (annual average)",True,"Stats SA headline annual average is 11.5. Your file also listed 9.9, which is not an annual average I could match (December 2008 year-on-year was 9.5). Global Financial Crisis food/fuel shock"
+2009,7.1,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Corrected from 7.2 in your file to 7.1 to match Stats SA. Post-recession recovery
+2010,4.3,"Stats SA P0141 CPI history, Table B2 (annual average)",True,"World Cup year, inflation slows down"
+2011,5.0,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Steady recovery period
+2012,5.6,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Moderate inflation
+2013,5.7,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Corrected from 5.8 in your file to 5.7 to match Stats SA. SARB target boundary pressure
+2014,6.1,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Food & transport price pressure
+2015,4.6,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Global oil price drops
+2016,6.4,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Severe regional drought shock
+2017,5.3,"Stats SA P0141 CPI history, Table B2 (annual average)",True,SARB shifts focus to 4.5% midpoint
+2018,4.7,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Corrected from 4.6 in your file to 4.7 to match Stats SA. Moderate inflation
+2019,4.1,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Subdued economic growth
+2020,3.3,"Stats SA P0141 CPI history, Table B2 (annual average)",True,COVID-19 pandemic lockdowns drop demand
+2021,4.5,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Corrected from 4.6 in your file to 4.5 to match Stats SA. Supply chain recovery
+2022,6.9,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Global post-COVID energy & food shocks
+2023,6.0,"Stats SA P0141 CPI history, Table B2 (annual average)",True,High food & administered price inflation
+2024,4.4,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Interest rate tightening takes effect
+2025,3.2,"Stats SA P0141 CPI history, Table B2 (annual average)",True,Lowest average inflation rate in decades
+2026,4.1,Your file (projection),False,"Projected, not a completed annual average; not used in the comparison. Stats SA monthly rates for Jan to Sep 2026 average about 4.0. Current projected average"

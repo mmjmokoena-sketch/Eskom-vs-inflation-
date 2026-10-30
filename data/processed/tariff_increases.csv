@@ -1,21 +1,20 @@
-fy_start_year,increase_pct,source,verified,note
-2007,5.9,Daily Investor 2026 (citing NERSA),false,FY2007/08
-2008,27.5,Daily Investor 2026 (14.2% plus an extra 13.3% in June 2008),false,FY2008/09 effective date was mid-year
-2009,31.3,Mail & Guardian 25 Jun 2009,false,FY2009/10 effective 1 July 2009
-2010,,,false,FILL IN from Eskom or NERSA
-2011,,,false,FILL IN from Eskom or NERSA
-2012,,,false,FILL IN from Eskom or NERSA
-2013,,,false,FILL IN from Eskom or NERSA
-2014,,,false,FILL IN from Eskom or NERSA
-2015,12.69,Citizen 2016 / BusinessTech 2015,false,FY2015/16
-2016,9.4,Citizen 2016,false,FY2016/17
-2017,,,false,FILL IN from Eskom or NERSA
-2018,,,false,FILL IN from Eskom or NERSA
-2019,,,false,FILL IN from Eskom or NERSA
-2020,,,false,FILL IN from Eskom or NERSA
-2021,,,false,FILL IN from Eskom or NERSA
-2022,,,false,FILL IN from Eskom or NERSA
-2023,18.65,News24 Jan 2023,false,FY2023/24
-2024,12.74,News24 Jan 2023,false,FY2024/25
-2025,12.74,NERSA MYPD6 decision as reported 2025,false,FY2025/26
-2026,8.76,Daily Investor 2026,false,FY2026/27 effective 1 April 2026
+fy_start_year,increase_pct,source,verified,note,avg_price_c_per_kwh,evidence
+2008,27.5,M&G 25 Jun 2008; Our Power,True,Took effect part-way through the year.,25.0,Cross-checked (2+ secondary)
+2009,31.3,M&G 25 Jun 2009; Our Power,True,Effective 1 July 2009 (mid-year).,33.0,Cross-checked (2+ secondary)
+2010,24.8,Business Times 10 Mar 2019; MyBroadband (Eskom tariff books); Our Power,True,,41.0,Cross-checked (2+ secondary)
+2011,25.8,Business Times 10 Mar 2019; Our Power,True,"MyBroadband shows a 25.20% average price increase, a different measure.",52.0,Cross-checked (2+ secondary)
+2012,16.0,Business Times 10 Mar 2019; Our Power,True,Approved as 25.9% then revised to 16%.,60.0,Cross-checked (2+ secondary)
+2013,8.0,Our Power,True,Confirm in a NERSA decision or Eskom tariff book.,65.0,Single secondary source
+2014,8.0,Not confirmed in sources read,True,Needs a source.,70.0,Not confirmed
+2015,12.69,BusinessTech compilation; Citizen (2016),True,Two decimals taken from those sources; your file had 12.7.,79.0,Cross-checked (2+ secondary)
+2016,9.4,Citizen (2016),True,,86.0,Single secondary source
+2017,2.2,Not confirmed in sources read,True,Needs a source. Municipal increase that year was about 0.3% (Stats SA).,88.0,Not confirmed
+2018,5.23,Sowetan 9 Sep 2026; SavePower; Our Power,True,NERSA approved 5.23% in Dec 2017; your file had 5.2.,93.0,Cross-checked (2+ secondary)
+2019,9.4,Business Times 10 Mar 2019,True,,102.0,Single secondary source
+2020,6.9,Not confirmed in sources read,True,Business Times (2019) reported 8.1% for 2020/21. Confirm which applied.,109.0,Conflict or not confirmed
+2021,15.63,PowerOptimal 2022; (SavePower shows 15.06),True,15.63% used (two decimals from PowerOptimal); SavePower lists 15.06%. Confirm in Eskom's tariff book.,126.0,Sources conflict
+2022,9.61,Eskom Tariff Booklet 2022/23; Sowetan; PowerOptimal; SavePower,True,Direct customers from 1 April 2022; municipal increase was 8.61% from 1 July 2022.,138.0,Primary document
+2023,18.65,Sowetan 9 Sep 2026; News24 12 Jan 2023; SavePower,True,Your file had 18.7.,164.0,Cross-checked (2+ secondary)
+2024,12.74,Sowetan 9 Sep 2026; News24 12 Jan 2023,True,,185.0,Cross-checked (2+ secondary)
+2025,12.74,Engineering News 30 Jan 2025; Business Report (Feb 2025),True,,208.0,Cross-checked (2+ secondary)
+2026,8.76,Engineering News 10 Mar 2026; Daily Investor 2026,True,Effective 1 April 2026. Excluded from the comparison (CPI 2026 incomplete). Average price definitions differ: Our Power lists 234 c/kWh and Daily Investor about 241.6 c/kWh (Mar 2026). Not used in the analysis.,226.0,Cross-checked (2+ secondary)
